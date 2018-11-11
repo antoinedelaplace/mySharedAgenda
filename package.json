@@ -1,0 +1,39 @@
+{
+  "name": "mySharedAgenda",
+  "version": "0.0.1",
+  "author": "DreamTeam",
+  "description": "ETNA MOB5 Project",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "re-test": "jest -u"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "appcenter": "^1.9.0",
+    "appcenter-analytics": "^1.9.0",
+    "appcenter-crashes": "^1.9.0",
+    "moment": "^2.22.2",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-calendars": "^1.21.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-firebase": "^5.0.0",
+    "react-native-google-signin": "^1.0.0-rc7",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-vector-icons": "^6.0.2",
+    "react-navigation": "^2.18.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.6",
+    "react-test-renderer": "16.5.0"
+  }
+}
